@@ -7,6 +7,10 @@
     <title>phone</title>
     <style>
       .a {
+        
+        float: left;
+        margin-left: 70%;
+        
         border: 16px black solid;
         border-radius: 36px;
         position: relative;
@@ -33,12 +37,14 @@
       .a::after{
         content: "";
         display: block;
-        width: 60px;
-        height: 5px;
+        width: 120px;
+        height: 25px;
         position: absolute;
-        border-radius: 20%;
-        top: 0.5px;
-        left: 42%;
+        border-bottom-left-radius : 20%;
+        border-bottom-right-radius: 20%;
+        top: 0.1px;
+        
+        left: 37%;
         background: rgb(12, 11, 11);
         transform: translate3d(-50%, -50%);
 
@@ -48,12 +54,15 @@
         height: 660px;
       }
       body{
-        background-color: honeydew;
+        background-color:plum;
         
         background-size:cover;
+        margin-left: 20%;
+        margin-right: 20%;
     
       }
       .c{
+        float: right;
         border: 16px rgb(10, 4, 4) solid;
         border-radius: 36px;
         position: relative;
@@ -150,8 +159,8 @@
     }
     
     img{
-      position: absolute;
-      top:45%;
+      position:absolute;
+      top:50%;
       left: 40%;
       height: 20mm;
       width: 20mm;
@@ -161,29 +170,32 @@
   <body>
     <br />
     <br />
-    <br />
-    <br />
 
-    
+    <div class="box1">
+
       <div class="a">
         <div class="b">
           <iframe
-            src="https://surjeet0305kanojia.github.io/Project-2.2/"
-            style="width: 100%; border: none; height: 100%; border-radius: 3px"
+          src="https://surjeet0305kanojia.github.io/Project-2.2/"
+          style="width: 100%; border: none; height: 100%; border-radius: 3px"
           ></iframe>
         </div>
       </div>
-      <br>
+    </div>
+    <div class="box2">
+
+      
       <div class="c" >
-          <div class="d">
-            <div>
-              <img src="png-apple-logo-9711.png" alt="">
-            </div>
-            <div class="e">
-
-            </div>
-
-          </div>
+        <div class="d">
+        <div>
+          <img src="png-apple-logo-9711.png" alt="">
+        </div>
+        <div class="e">
+          
+        </div>
+        
+      </div>
+    </div>
 
         </div>
     
